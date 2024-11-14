@@ -1,0 +1,78 @@
+/* General Page Style */
+.home-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.search-booking, .train-schedules, .user-account-section, .support-section, .reviews-section {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styles */
+.search-button, .schedule-button, .account-button, .support-button, .book-button {
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #ff4081, #3f51b5);
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  transition: transform 0.2s ease, background-image 0.3s ease;
+}
+
+.search-button:hover, .schedule-button:hover, .account-button:hover, .support-button:hover, .book-button:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(135deg, #ff1744, #304ffe);
+}
+
+/* Banner Styling */
+.promotional-banners {
+  gap: 15px;
+  overflow-x: auto;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.banner {
+  background-color: #ff4081;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Offers Section Styling */
+.offers-section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+}
+
+.offers-section ul li {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-left: 5px solid #ff4081;
+}
+
+/* Highlighted Offer */
+.offer-highlight {
+  background-color: #ff9800;
+  color: #121212;
+  border-left: 5px solid #ff4081;
+}

@@ -1,0 +1,44 @@
+.my-bookings-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #2e2e2e, #1a1a1a);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #e0e0e0; /* Light grey text color for contrast */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffdd57; /* Yellow accent color for main heading */
+}
+
+.booking-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.booking-card {
+    padding: 15px;
+    border: 1px solid #444; /* Darker border color */
+    background: linear-gradient(135deg, #333, #222);
+    color: #ffffff; /* White text for readability on dark background */
+    border-radius: 5px;
+}
+
+.booking-card h3 {
+    margin: 0 0 10px;
+    color: #4db8ff; /* Light blue for subheadings */
+}
+
+.no-bookings, .loading, .error {
+    text-align: center;
+    color: #ffdddd; /* Soft red for error and no-bookings messages */
+}
+
+.no-bookings p, .loading, .error {
+    font-size: 18px;
+    color: #e0e0e0; /* Lighter color for all general text */
+}
